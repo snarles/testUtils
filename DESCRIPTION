@@ -1,9 +1,11 @@
 Package: testUtils
 Type: Package
-Title: What the package does (short line)
+Title: Various utilities for testing implementations of statistical algorithms
 Version: 1.0
 Date: 2015-09-07
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Charles Zheng
+Maintainer: Charles Zheng <snarles@stanford.edu>
+Description: Various utilities for testing implementations of statistical algorithms
+License: GPL (>= 2)
+URL: http://github.com/snarles/testUtils
+BugReports: http://github.com/snarles/testUtils/issues
