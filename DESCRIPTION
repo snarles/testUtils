@@ -7,5 +7,6 @@ Author: Charles Zheng
 Maintainer: Charles Zheng <snarles@stanford.edu>
 Description: Various utilities for testing implementations of statistical algorithms
 License: GPL (>= 2)
+Imports: parallel
 URL: http://github.com/snarles/testUtils
 BugReports: http://github.com/snarles/testUtils/issues
