@@ -33,7 +33,7 @@ lclapply <- function(x, f, mc.cores = 0) {
   if (mc.cores == 0) {
     return(listcomb(lapply(x, f)))
   } else {
-    return(listcomb(mclapply(x, f, mc.cores)))    
+    return(listcomb(mclapply(x, f, mc.cores = mc.cores)))    
   }
 }
 
@@ -46,7 +46,7 @@ mclapply0 <- function(x, f, mc.cores = 0) {
   if (mc.cores == 0) {
     return(lapply(x, f))
   } else {
-    return(mclapply(x, f, mc.cores))    
+    return(mclapply(x, f, mc.cores = mc.cores))    
   }
 }
 
