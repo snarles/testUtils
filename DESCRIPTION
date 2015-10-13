@@ -7,6 +7,7 @@ Author: Charles Zheng
 Maintainer: Charles Zheng <snarles@stanford.edu>
 Description: Various utilities for testing implementations of statistical algorithms
 License: GPL (>= 2)
-Imports: parallel
+Imports: parallel, Rcpp (>= 0.11.3)
+LinkingTo: Rcpp, RcppArmadillo
 URL: http://github.com/snarles/testUtils
 BugReports: http://github.com/snarles/testUtils/issues
